@@ -10,6 +10,73 @@ text-align: center;
 }
 
 .first-nav{
-  height: 80px;
+  height: 70px;
   background: lightgrey;
+  border-bottom: 1px solid black;
+}
+
+.inside-first-nav{
+  position: relative;
+  background: lightgrey;
+  height: 70px;
+  width: 70%;
+  margin: 0 auto;
+  border-bottom: 1px solid black;
+}
+
+.nav{
+  display: inline-block;
+  position: absolute;
+}
+
+.english{
+  left: 0;
+  top: 35%;
+  color: #83969F;
+}
+
+.contact-us{
+  left: 12%;
+  top: 35%;
+  text-decoration: none;
+  color: black;
+}
+
+.bar{
+  left: 10%;
+  top: 35%;
+}
+
+.search{
+  right: 21%;
+  top:35%;
+  color: #8DB9D0;
+}
+
+.log-in{
+  right: 13%;
+  top:25%;
+  background-color:white;
+  border: 1px solid orange;
+  color: orange;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.get-hub{
+  right: 0;
+  top:25%;
+  background-color:orange;
+  border: 1px solid orange;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
 }
