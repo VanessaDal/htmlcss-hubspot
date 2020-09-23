@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  /* debug rules */
+text-align: center;
+}
+
+.first-nav{
+  height: 80px;
+  background: lightgrey;
+}
