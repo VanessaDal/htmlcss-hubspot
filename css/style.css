@@ -78,7 +78,7 @@ text-align: center;
 }
 
 /* log in button */
-.log-in{
+.log-in-button{
   right: 13%;
   top:25%;
   background-color:white;
@@ -92,7 +92,7 @@ text-align: center;
 }
 
 /* get hub button */
-.get-hub{
+.get-hub-button{
   right: 0;
   top:25%;
   background-color:#fe775a;
@@ -246,7 +246,6 @@ margin: auto
 /* mid column section */
 .mid-column-section{
   background-color: white;
-  height: 200px;
   margin: auto;
   width: 70%;
   margin-top: 50px;
@@ -258,4 +257,74 @@ margin: auto
   display: table;
   content: "";
   clear: both;
+}
+
+.learn-more{
+  background: white;
+  max-width: 30%;
+  height: inherit;
+  float: left;
+}
+
+.free-hubspot{
+  height: inherit;
+  max-width: 60%
+  float: right;
+  margin-right: 10%;
+  color:#435466;
+}
+
+.book-logo{
+  width: 120px;
+  margin-left: 90px;
+  margin-top: 50px;
+  margin-bottom: 20px
+}
+
+.learn-more-button{
+  right: 0;
+  top:25%;
+  background-color:#fe775a;
+  border: 1px solid #fe775a;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  margin-left: 95px;
+  margin-bottom: 80px;
+}
+
+.free-hubspot h3:first-child{
+  text-align: left;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.free-hubspot p:nth-child(2){
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+hr{
+  width: 400px;
+  float: right;
+  margin-top: 10px;
+  background-color: #435466
+}
+
+.deals li{
+  display: inline-block;
+  color: #435466;
+  float: left;
+  margin-right: 20px;
+  margin-top: 28px;
+  font-size: 15px;
+  color: #667584;
+}
+.fa-check-circle{
+  color: #fe775a
 }
