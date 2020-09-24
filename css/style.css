@@ -5,11 +5,22 @@
   box-sizing: border-box;
 }
 
+ul{
+  list-style: none;
+}
 
 /* general header rules */
 header{
   /* debug rules */
 text-align: center;
+}
+
+/* nav rules */
+.nav{
+  display: inline-block;
+  position: absolute;
+  font-family: AvenirNext, Helvetica Neue, Helvetica ,Arial, sans-serif;
+  font-size: 14px;
 }
 
 /* first row rules */
@@ -28,12 +39,7 @@ text-align: center;
   border-bottom: 1px solid black;
 }
 
-.nav{
-  display: inline-block;
-  position: absolute;
-  font-family: AvenirNext, Helvetica Neue, Helvetica ,Arial, sans-serif;
-  font-size: 14px;
-}
+
 
 /* language */
 .english{
@@ -94,4 +100,23 @@ text-align: center;
   text-decoration: none;
   display: inline-block;
   border-radius: 5px;
+}
+
+/* second row rules */
+.second-nav{
+  height: 70px;
+  background: pink
+}
+
+.inside-second-nav{
+  position: relative;
+  background: lightblue;
+  height: 70px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.logo{
+  left:0;
+  top: 30%;
 }
