@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+body{
+    font-family: AvenirNext, Helvetica Neue, Helvetica ,Arial, sans-serif;
+}
+
 ul{
   list-style: none;
 }
@@ -36,7 +40,6 @@ text-align: center;
 .nav{
   display: inline-block;
   position: absolute;
-  font-family: AvenirNext, Helvetica Neue, Helvetica ,Arial, sans-serif;
   font-size: 14px;
 }
 
@@ -116,40 +119,80 @@ text-align: center;
   margin: 0 auto;
 }
 
+/* logo */
 .logo{
 float: left;
 margin-top: 20px;
 }
 
-
+/* menu */
 .menu li{
   display: inline-block;
   color: #667584;
   float: right;
   margin-left: 20px;
   margin-top: 28px;
-  font-family: AvenirNext, Helvetica Neue, Helvetica ,Arial, sans-serif;
   font-size: 15px;
   color: #667584;
   font-weight: bolder;
 }
 
+/* jumbotron */
 .jumbotron{
   background-image: url(../img/jumbotron1.png);
   height: 600px;
   background-repeat: no-repeat;
-  background-size: auto 100%;
+  background-color: #fef4ef;
+  background-position: right;
+}
+
+.jumbotron::after{
+  display: table;
+  content: "";
+  clear: both;
 }
 
 .we-are-the-best{
-
+  display: inline-block;
+  max-width: 500px;
+  margin-left: 15%;
+  margin-top: 5%;
+  float: left;
 }
 
+.we-are-the-best h1:first-child{
+  color: #435466;
+  font-size: 46px;
+  text-align: left;
+}
+
+.we-are-the-best p:nth-child(2){
+  display: inline-block;
+  color: #435466;
+  font-size: 16px;
+  text-align: left;
+  margin-top: 25px;
+  line-height: 1.5;
+}
+
+.we-are-the-best a:nth-child(3){
+float: left;
+margin-top: 25px;
+padding: 20px
+}
+
+.we-are-the-best p:nth-child(4){
+color: #435466;
+text-align: left;
+font-size: 12px;
+margin-top: 110px;
+}
+
+/* separator */
 .green-separator{
   background: #afebe4;
   height: 70px;
   border-top: 3px solid black;
   border-bottom: 3px solid black;
   z-index: 100
-}
 }
