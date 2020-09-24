@@ -120,3 +120,12 @@ text-align: center;
   left:0;
   top: 30%;
 }
+
+
+.menu li{
+  display: inline-block;
+  color: #667584;
+  left: 0;
+  top: 30%;
+  margin-right: 2px;
+}
