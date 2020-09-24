@@ -135,6 +135,21 @@ margin-top: 20px;
 }
 
 .jumbotron{
-  background-image: url(../img/jumbotron.png);
-  height: 610px;
+  background-image: url(../img/jumbotron1.png);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+.we-are-the-best{
+
+}
+
+.green-separator{
+  background: #afebe4;
+  height: 70px;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  z-index: 100
+}
 }
