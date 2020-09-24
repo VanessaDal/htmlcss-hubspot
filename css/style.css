@@ -1,23 +1,27 @@
-*{
-  margin: 0;
+/* general rules */
+
+*{  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+
+/* general header rules */
 header{
   /* debug rules */
 text-align: center;
 }
 
+/* first row rules */
 .first-nav{
   height: 70px;
-  background: lightgrey;
+  background: #f4f9fd;
   border-bottom: 1px solid black;
 }
 
 .inside-first-nav{
   position: relative;
-  background: lightgrey;
+  background: #f4f9fd;
   height: 70px;
   width: 70%;
   margin: 0 auto;
@@ -27,56 +31,67 @@ text-align: center;
 .nav{
   display: inline-block;
   position: absolute;
+  font-family: AvenirNext, Helvetica Neue, Helvetica ,Arial, sans-serif;
+  font-size: 14px;
 }
 
+/* language */
 .english{
   left: 0;
   top: 35%;
-  color: #83969F;
+  color: #667584;
+  font-weight: bolder;
 }
 
+/* contact us */
 .contact-us{
   left: 12%;
   top: 35%;
   text-decoration: none;
   color: black;
+  color: #667584;
+  font-weight: bolder;
+
 }
 
+/* bar */
 .bar{
   left: 10%;
   top: 35%;
+  color: #73838B;
 }
 
+/* search icon */
 .search{
-  right: 21%;
-  top:35%;
+  right: 20%;
+  top:38%;
   color: #8DB9D0;
 }
 
+/* log in button */
 .log-in{
   right: 13%;
   top:25%;
   background-color:white;
-  border: 1px solid orange;
-  color: orange;
+  border: 1px solid #fe775a;
+  color: #fe775a;
   padding: 8px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
   border-radius: 5px;
 }
 
+/* get hub button */
 .get-hub{
   right: 0;
   top:25%;
-  background-color:orange;
-  border: 1px solid orange;
+  background-color:#fe775a;
+  border: 1px solid #fe775a;
   color: white;
   padding: 8px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
   border-radius: 5px;
 }
