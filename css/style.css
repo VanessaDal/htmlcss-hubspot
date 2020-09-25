@@ -522,7 +522,7 @@ margin-bottom: 10px;
 /* Last section */
 
 .last-section{
-  background-color: lightblue;
+  background-color: white;
   height: 800px;
   color: #667584;
 }
@@ -561,7 +561,6 @@ margin-bottom: 10px;
 
 .top-right{
   float: right;
-  background-color: orange;
   width: 80%;
 }
 
@@ -584,8 +583,6 @@ top-right::after{
 
 
 .inside-last-section-bottom{
-  background-color: lightgreen;
-  height: 500px;
   width: 70%;
   margin: auto;
 }
@@ -597,10 +594,8 @@ top-right::after{
 }
 
 .bottom-left{
-height: inherit;
 width: 40%;
-background-color: pink;
-float: left
+float: left;
 }
 
 .bottom-left h2:first-child{
@@ -627,8 +622,17 @@ float: left
 .bottom-right{
   float: left;
   width: 60%;
-  height: inherit;
-  background-color: blue;
+}
+
+.bottom-right::after{
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.woman{
+  width: 300px;
+  float: right;
 }
 
 footer{
