@@ -600,6 +600,7 @@ top-right::after{
 height: inherit;
 width: 40%;
 background-color: pink;
+float: left
 }
 
 .bottom-left h2:first-child{
@@ -623,22 +624,31 @@ background-color: pink;
   font-size: 12px;
 }
 
-/* .bottom-right{
+.bottom-right{
   float: left;
   width: 60%;
   height: inherit;
   background-color: blue;
-} */
+}
 
 footer{
   background-color: #32495b;
-  height: 500px;
+}
+
+.footer-container{
+  width: 70%;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+.footer-container::after{
+  display: table;
+  content: "";
+  clear: both;
 }
 
 .footer-columns{
-  width: 70%;
-  height: inherit;
-  background-color: pink;
+  width: 100%;
   margin: auto;
 }
 
@@ -697,8 +707,47 @@ footer{
   margin-top: 10px;
 }
 
+.languages-container{
+margin-left: 25%;
+margin-top: 35px;
+}
+
 .languages li{
   display: inline-block;
-  text-align: center;
   color: #dadee0;
+  margin-right: 30px;
+  font-size: 14px;
+}
+
+.footer-container hr:nth-child(3){
+  margin-top: 25px;
+  background-color: #dadee0;
+  margin-bottom: 40px;
+}
+
+.footer-last-line::after{
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.footer-logo{
+  width: 30%;
+  float:left;
+}
+
+.legal-stuff{
+  width: 20%;
+  float: right;
+}
+
+.footer-last-line p:nth-child(2){
+  color: white;
+  font-size: 15px;
+}
+
+.legal-stuff *{
+  display: inline-block;
+  color: #dadee0;
+  margin-left: 10px;
 }
