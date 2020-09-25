@@ -350,6 +350,7 @@ margin: auto
   display: inline-block;
   text-align: center;
   color: #667584;
+  padding: 30px;
 }
 
 #central-column{
@@ -360,7 +361,6 @@ margin: auto
 .small-logo{
   width: 100px;
   height: 100px;
-  margin-top: 50px;
   margin-bottom: 20px
 }
 
@@ -373,4 +373,35 @@ margin: auto
   margin-bottom: 25px;
   font-size: 14px;
   line-height: 1.6;
+}
+
+.hr-columns{
+  background-color: #667584;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.bottom-columns h3:nth-child(5){
+  margin-bottom: 25px;
+  font-size: 16px;
+}
+
+.columns-list li{
+  text-align: left;
+  font-size: 14px;
+}
+
+#learn-more-bottom-columns-button{
+  right: 0;
+  top:25%;
+  background-color:#fe775a;
+  border: 1px solid #fe775a;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  margin-top: 30px;
+  font-size: 13px;
 }
