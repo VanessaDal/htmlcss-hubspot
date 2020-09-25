@@ -570,11 +570,12 @@ margin-bottom: 10px;
   width: 120px;
 }
 
-.logo-top-right li{
+.logo-top-rightli{
   float: right;
   margin-right: 20px;
   margin-top: 50px;
 }
+
 
 .inside-last-section-bottom{
   background-color: lightgreen;
