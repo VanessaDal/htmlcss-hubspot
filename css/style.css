@@ -142,8 +142,8 @@ margin-top: 20px;
   background-image: url(../img/jumbotron1.png);
   height: 600px;
   background-repeat: no-repeat;
-  background-color: #fef4ef;
-  background-position: right;
+  background-position: bottom;
+  background-size:cover;
 }
 
 .jumbotron::after{
@@ -563,17 +563,23 @@ margin-bottom: 10px;
   float: right;
   background-color: orange;
   width: 80%;
-  height: 300px;
+}
+
+top-right::after{
+  display: table;
+  content: "";
+  clear: both;
 }
 
 #logo-right{
-  width: 120px;
+  width: 100px;
 }
 
-.logo-top-rightli{
+.logo-top-right li{
   float: right;
-  margin-right: 20px;
+  margin-right: 6%;
   margin-top: 50px;
+  padding: 5px;
 }
 
 
@@ -582,4 +588,44 @@ margin-bottom: 10px;
   height: 500px;
   width: 70%;
   margin: auto;
+}
+
+.inside-last-section-bottom::after{
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.bottom-left{
+height: inherit;
+width: 40%;
+background-color: pink;
+}
+
+.bottom-left h2:first-child{
+  font-size: 30px;
+  padding-top: 30px;
+}
+
+.bottom-left p:nth-child(2){
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.bottom-left a:nth-child(3){
+  padding: 20px;
+  font-size: 14px;
+}
+
+.bottom-left p:nth-child(4){
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 12px;
+}
+
+.bottom-right{
+  float: left;
+  width: 60%;
+  height: inherit;
+  background-color: blue;
 }
