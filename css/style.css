@@ -1,5 +1,4 @@
 /* general rules */
-
 *{  margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -15,13 +14,12 @@ ul{
 
 /* first row rules */
 .first-nav{
-  height: 70px;
   background: #f4f9fd;
   border-bottom: 1px solid black;
+  padding-bottom: 20px;
 }
 
 .first-nav-container{
-  height: inherit;
   width: 70%;
   margin: auto;
 }
@@ -33,7 +31,6 @@ ul{
 }
 
 .inside-first-nav-left{
-  height: inherit;
   float: left;
   width: 25%;
   color: #667584;
@@ -62,6 +59,7 @@ ul{
   width: 25%;
   text-align: right;
 }
+
 /* search icon */
 .search{
   display: inline-block;
@@ -251,6 +249,8 @@ margin: auto
   clear: both;
 }
 
+
+/* top column */
 .learn-more{
   background: white;
   max-width: 30%;
@@ -320,6 +320,8 @@ margin: auto
 .fa-check-circle{
   color: #fe775a
 }
+
+/* veryical columns */
 
 .bottom-columns-section{
   height:200px;
@@ -405,19 +407,15 @@ margin: auto
   font-size: 13px;
 }
 
+/* green section */
+
 .green-section{
   background-image: linear-gradient(45deg, #00A4BD, #00BDA5);
   padding-bottom: 60px;
 }
 
-/* .green-section::after{
-  display: table;
-  content: "";
-  clear: both;
-} */
 
 .center-green-section{
-  /* background-color: pink; */
   width: 70%;
   margin: auto;
 }
@@ -446,10 +444,10 @@ margin: auto
   margin-bottom: 40px;
 }
 
+/* green section squares */
+
 .green-squares{
   float: left;
-  /* background-color: purple; */
-  /* width: calc(97% / 4); */
   width: 25%;
   border-right: 1px solid white;
   text-align: center;
