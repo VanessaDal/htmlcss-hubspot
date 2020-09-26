@@ -13,13 +13,6 @@ ul{
   list-style: none;
 }
 
-/* general header rules */
-header{
-  /* debug rules */
-text-align: center;
-}
-
-
 /* first row rules */
 .first-nav{
   height: 70px;
@@ -27,81 +20,80 @@ text-align: center;
   border-bottom: 1px solid black;
 }
 
-.inside-first-nav{
-  position: relative;
-  background: #f4f9fd;
-  height: 70px;
+.first-nav-container{
+  height: inherit;
   width: 70%;
-  margin: 0 auto;
-  border-bottom: 1px solid black;
+  margin: auto;
 }
 
-/* nav rules */
-.nav{
-  display: inline-block;
-  position: absolute;
-  font-size: 14px;
+.first-nav-container::after{
+  display: table;
+  content: "";
+  clear: both;
 }
 
+.inside-first-nav-left{
+  height: inherit;
+  float: left;
+  width: 25%;
+  color: #667584;
+}
 
-/* language */
 .english{
-  left: 0;
-  top: 35%;
-  color: #667584;
-  font-weight: bolder;
+  display: inline-block;
+  margin-top: 25px;
 }
 
-/* contact us */
-.contact-us{
-  left: 12%;
-  top: 35%;
-  text-decoration: none;
-  color: black;
-  color: #667584;
-  font-weight: bolder;
-
-}
-
-/* bar */
 .bar{
-  left: 10%;
-  top: 35%;
-  color: #73838B;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
+.contact-us{
+  display: inline-block;
+  margin-top: 25px;
+  text-decoration: none;
+  color: #667584;
+}
+
+.inside-first-nav-right{
+  height: inherit;
+  float: right;
+  width: 25%;
+  text-align: right;
+}
 /* search icon */
 .search{
-  right: 20%;
-  top:38%;
+  display: inline-block;
+  margin-top: 15px;
+  margin-right: 10px;
   color: #8DB9D0;
 }
 
 /* log in button */
 .log-in-button{
-  right: 13%;
-  top:25%;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 12px;
   background-color:white;
   border: 1px solid #fe775a;
   color: #fe775a;
   padding: 8px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   border-radius: 5px;
 }
 
 /* get hub button */
 .get-hub-button{
-  right: 0;
-  top:25%;
+  display: inline-block;
+  margin-top: 12px;
   background-color:#fe775a;
   border: 1px solid #fe775a;
   color: white;
   padding: 8px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   border-radius: 5px;
 }
 
