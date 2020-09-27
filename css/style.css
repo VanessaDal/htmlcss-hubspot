@@ -526,6 +526,7 @@ margin-bottom: 10px;
 .inside-last-section-top{
   width: 60%;
   margin: auto;
+  padding-bottom: 50px;
 }
 
 .inside-last-section-top::after{
@@ -562,12 +563,14 @@ top-right::after{
 
 #logo-right{
   width: 100px;
+  height: 40px;
+  object-fit: contain;
 }
 
 .logo-top-right li{
   float: right;
-  margin-right: 6%;
-  margin-top: 50px;
+  margin-right: 5%;
+  margin-top: 20px;
   padding: 5px;
 }
 
@@ -712,6 +715,8 @@ margin-top: 35px;
   margin-right: 30px;
   font-size: 14px;
 }
+
+/* footer */
 
 .footer-container hr:nth-child(3){
   margin-top: 25px;
